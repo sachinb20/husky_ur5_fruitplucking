@@ -1,0 +1,13 @@
+#config:
+#  chasis: [0,0,0]
+#  arm: [0,0,0.2,-1.6,0]
+#Take Values from jointstate and odom
+
+#Tse_des : [[0,0,1,0.5],[0,1,0,0],[-1,0,0,0.5],[0,0,0,1]]
+#Tse_des_next : [[0,0,1,0.6],[0,1,0,0],[-1,0,0,0.3],[0,0,0,1]]
+#Take values from trajectory generation
+
+Kp : [0.1,0.1,0.1,0.1,0.1,0.1]
+Ki : [0.1,0.1,0.1,0.1,0.1,0.1]
+
+timestep : 0.01
